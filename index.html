@@ -21,30 +21,38 @@
         <!-- меню навігації-->
       <nav class="nav">
       <a class="logo header-logo" href="./index.html">web<span class="span-logo">Studio</span> </a>
-        <ul class="menu-nav list-nav">
-            <li> <a class="link-nav current" href="./index.html">Studio</a> </li>
-            <li> <a class="link-nav" href=""> Portfolio</a> </li>
-            <li> <a class="link-nav" href=""> Contacts</a> </li>
+        <ul class=" list-nav">
+            <li class="nav-item"> <a class="link-nav current" href="./index.html">Studio</a> </li>
+            <li class="nav-item"> <a class="link-nav" href=""> Portfolio</a> </li>
+            <li class="nav-item"> <a class="link-nav" href=""> Contacts</a> </li>
         </ul>
     </nav>     
     <address class="address"> 
     <ul class="address-link">
-      <li> <a class="link-address" href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
-      <li> <a class="link-address" href="tel:+110001111111">+11 (000) 111-11-11</a> </li>
+      <li class="address-item"> <a class="link-address" href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
+      <li class="address-item"> <a class="link-address" href="tel:+110001111111">+11 (000) 111-11-11</a> </li>
     </ul>
     </address>
+
+    <button class="menu-btn" type="button" data-menu-open>
+      <svg class="menu-icon" width="24" height="24">
+        <use href="./images/icons.svg#icon-menu"></use>
+      </svg>
+    </button>
     </div>
+
+   
   </header> 
 
   <main>
-    <section class="hero">
+    <section class="hero hidden">
     <div class="container">
           <h1 class="title">Effective Solutions for Your Business</h1>
       <button class="button" type="button"> Order Service</button>
     </div>
     </section>
    
-    <section class="feature">
+    <section class="feature hidden">
       <div class="container">
     <h2 class="title-feature visually-hidden">Feature</h2>
   <ul class="list-feature icon-list">
@@ -81,7 +89,7 @@
 
 <!--команда з фотографіями -->
 
-<section class="ourteam">
+<section class="ourteam hidden">
   <div class="container">
 <h2 class="title-our-team">Our Team</h2>
 <ul class="ourteam-list">
@@ -258,7 +266,7 @@
  </div>
 </section>
 
-<section class="portfolio">
+<section class="portfolio hidden">
   <div class="container ">
   <h2 class="title-portfolio">Our Portfolio </h2>
   <ul class="portfolio-list">
@@ -344,7 +352,7 @@
 </section>
 </main>
 
-  <footer class="footer">
+  <footer class="footer hidden">
      <div class="container menu-footer">
      <div class="logo-text">
       <a class="footer-logo" href="./index.html">web<span class="footer-span-logo">Studio</span> </a>
@@ -389,8 +397,72 @@
   </div>
    </footer>
 
+ <!-- mobile menu -->
+    <div class="mobile-menu is-open" data-menu>
+      <div class="container mobile-menu-conteiner">
+     <button class="close-modal-btn" type="button">
+  <svg class="icon-close" width="8" height="8">
+    <use href="./images/icons.svg#icon-close"></use>
+  </svg>
+</button>
+      <nav class="mobile-nav">
+        <ul class=" moblist-nav-list">
+            <li class="mom-nav-item"> <a class="link-nav current" href="./index.html">Studio</a> </li>
+            <li class="mob-nav-item"> <a class="link-nav" href=""> Portfolio</a> </li>
+            <li class="mob-nav-item"> <a class="link-nav" href=""> Contacts</a> </li>
+        </ul>
+      </nav>     
+    <address class="mob-address"> 
+    <ul class="mob-address-link">
+      <li class="mob-address-item"> <a class="link-address" href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
+      <li class="mob-address-item"> <a class="link-address" href="tel:+110001111111">+11 (000) 111-11-11</a> </li>
+    </ul>
+    </address>
+
+      <div class="mobile-social">
+        <ul class="mob-soc-list">
+         <li class="mob-soc-item">
+          <a href="" class="mob-soc-link">  
+            <svg class="mob-icon" width="16" height="16"> 
+              <use href="./images/icons.svg#icon-instagram-21"> 
+              </use> 
+            </svg> 
+          </a> 
+        </li>
+         <li class="mob-soc-item">
+          <a href="" class="mob-soc-link">  
+            <svg class="mob-icon" width="16" height="16"> 
+              <use href="./images/icons.svg#icon-twitter-11"> 
+              </use> 
+            </svg> 
+          </a>
+        </li>
+         <li class="mob-soc-item">
+          <a href="" class="mob-soc-link">  
+            <svg class="mob-icon" width="16" height="16"> 
+              <use href="./images/icons.svg#icon-facebook-11"> 
+              </use>
+            </svg>
+          </a>
+        </li>
+         <li class="mob-soc-item">
+          <a href="" class="mob-soc-link">  
+            <svg class="mob-icon" width="16" height="16"> 
+             <use href="./images/icons.svg#icon-linkedin-11"> 
+             </use> 
+            </svg>
+          </a>
+        </li>
+       </ul>
+      </div>
+    </div>
+    </div>
+
+
+
+
    <!-- MODAL OVERLAY -->
-<div class="modal-fon is-open">
+<div class="modal-fon is-open hidden">
   <div class="modal">
 <button class="close-modal-btn" type="button">
   <svg class="icon-close" width="8" height="8">
