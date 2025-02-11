@@ -952,6 +952,8 @@ width: 264px;
 text-align: start;
 }
 
+.text-label {text-align: start;}
+
 .footer-div {
   margin: 0;
 }
