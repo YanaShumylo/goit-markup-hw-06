@@ -929,10 +929,11 @@ align-items: baseline;
 padding: 96px 108px;
 gap: 72px 24px;
 }
+
 .logo-text {
 /* margin-right: 24px;
 margin-bottom: 72px; */
-/* width: 264px; */
+width: 264px;
 text-align: start;
 }
 
