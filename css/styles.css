@@ -259,8 +259,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
   margin-bottom: 48px;
 }
 .mob-address-link {
-  /* width: 193px;
-height: 72px; */
 display: flex;
   flex-direction: column;
 gap: 24px;}
@@ -283,28 +281,10 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 {color: #404bbf;
   } 
 
-  /* .mobile-social {
-   min-width: 280px;
-    } */
-
 .mob-soc-list {
 display: flex;
-/* align-items: center;
-justify-content:space-between; 
-flex-direction: row; */
 gap: 40px;
 }
-
-/* .mob-soc-item {
-  border-radius: 50%;
-  background-color: #4D5AE5;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
 
 .mob-soc-link:hover,
 .mob-soc-link:focus 
@@ -319,7 +299,6 @@ gap: 40px;
   border-radius: 50%;
    width: 40px;
   height: 40px;
-  /* padding: 12px; */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
  
 .mob-icon {
@@ -689,10 +668,6 @@ letter-spacing: 0.02em;
 color: #f4f4fd;
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
-/* .portfolio-foto {
-  min-height: 280px;
-} */
-
 .project-text {
 border: 1px solid #e7e9fc;
 padding: 32px 16px; 
@@ -756,16 +731,11 @@ transform: translateY(0%);
 padding: 96px 16px;
 display: flex;
 flex-wrap: wrap;
-/* flex-direction: column; */
 gap: 72px;
-/* justify-content: center; Вирівнює по горизонталі
-align-items: center; Вирівнює по вертикалі */
         
 }
 
 .logo-text {
-  /* width: 288px;
-  margin-bottom: 72px; */
 text-align: center;
 }
 
@@ -794,8 +764,6 @@ padding: 0;
 .footer-span-logo {color: #f4f4fd;}
 
 .footer-div {
-/* width: 208px;
-margin-bottom: 72px; */
  margin: 0 auto;
 }
 
@@ -805,7 +773,6 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
-/* width: 96px; */
 margin-bottom:  16px;
 text-align: center;
 }
@@ -818,17 +785,6 @@ flex-direction: row;
 gap: 24px;
 }
 
-
-/* .footer-soc-item {
-width: 40px;
-height: 40px;} */
-
-.footer-soc-list {
-/* display: flex;
-flex-direction: row; */
-/* gap: 16px; */
-}
-
 .footer-soc-link {
     display: flex;
   justify-content: center;
@@ -838,9 +794,6 @@ flex-direction: row; */
   padding: 12px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;}
-   /* width: 100%; 
- height: 100%; */
-
 
 .footer-soc-link:hover {
   background-color: #31D0AA;
@@ -849,16 +802,6 @@ flex-direction: row; */
 {
   background-color: #31D0AA;
   }
-
-
-/* .footer-form {
-  width: 288px;
-height: 136px;
-  display: flex;
-  flex-direction: column;
-   justify-content: center;
-  align-items: center;
-}  */
 
   .footer-icon {
   fill: #f4f4fd; 
@@ -877,7 +820,6 @@ left: 0;
 .report-form {
 display: flex;
 flex-wrap: wrap;
-/* flex-direction: column; */
  justify-content: center;
   align-items: center;
 gap: 16px;}
@@ -889,7 +831,6 @@ width: 288px;
 height: 40px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background-color: transparent;
-/* font-family: inherit; */
 padding: 16px;
 font-weight: 400;
 font-size: 12px;
@@ -897,8 +838,6 @@ line-height: 2;
 letter-spacing: 0.04em;
 outline: none;
 color: #ffffff;
-/* opacity: 0.6; 
-margin-bottom: 16px; */
 }
 
 .email-input::placeholder {
@@ -922,7 +861,6 @@ background-color: #4d5ae5;
 display: flex;
 align-items: center;
 justify-content: center;
-/* flex-direction: row; */
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 gap: 16px;
 }
@@ -937,17 +875,12 @@ gap: 16px;
 @media screen and (min-width: 768px)
 {
 .menu-footer {
-/* display: flex;
-flex-wrap: wrap;
-flex-direction: row; */
 align-items: baseline;
 padding: 96px 108px;
 gap: 72px 24px;
 }
 
 .logo-text {
-/* margin-right: 24px;
-margin-bottom: 72px; */
 width: 264px;
 text-align: start;
 }
@@ -963,49 +896,21 @@ text-align: start;
 .email-input {width: 264px;}
 
 .report-form {
-  /* flex-direction: row; */
 gap: 24px; 
-/* align-items: baseline; */
 }}
-
-/* .footer-form {
-  width: 453px;
-  height: 80px;
-  align-items: flex-start;
-} */
 
 @media screen and (min-width: 1158px)
 {.menu-footer {
   padding: 100px 0;
    align-items: baseline;
-/* display: flex; */
 }
 
 .logo-text {
-  /* width: 264px; */
   margin-right: 120px;}
-
-/* .footer-div {
-margin-right: 80px;
-} */
 
 .footer-form {
   margin-left: auto;
-  /* width: 453px;
-height: 80px; */
 }}
-
-/* .footer-text {
-align-items: center;
-}
-
-.report-form {
-gap: 24px; 
-}  
-
-.email-input {
-width: 264px;
-}}  */
 
 /* MODAL OVERLAY */
 .modal-fon {
